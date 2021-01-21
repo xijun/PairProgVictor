@@ -16,6 +16,9 @@
 		E0E1CA0C25B998B40090A2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E1CA0A25B998B40090A2D6 /* LaunchScreen.storyboard */; };
 		E0E1CA1725B998B50090A2D6 /* PairProgVictorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1CA1625B998B50090A2D6 /* PairProgVictorTests.swift */; };
 		E0E1CA2225B998B50090A2D6 /* PairProgVictorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1CA2125B998B50090A2D6 /* PairProgVictorUITests.swift */; };
+		E0E1CA3425B9997A0090A2D6 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1CA3325B9997A0090A2D6 /* UserDataModel.swift */; };
+		E0E1CA3925B999BA0090A2D6 /* UserDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1CA3825B999BA0090A2D6 /* UserDomainModel.swift */; };
+		E0E1CA3E25B999D20090A2D6 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1CA3D25B999D20090A2D6 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		E0E1CA1D25B998B50090A2D6 /* PairProgVictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairProgVictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E1CA2125B998B50090A2D6 /* PairProgVictorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairProgVictorUITests.swift; sourceTree = "<group>"; };
 		E0E1CA2325B998B50090A2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E1CA3325B9997A0090A2D6 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		E0E1CA3825B999BA0090A2D6 /* UserDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDomainModel.swift; sourceTree = "<group>"; };
+		E0E1CA3D25B999D20090A2D6 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		E0E1C9FB25B998B30090A2D6 /* PairProgVictor */ = {
 			isa = PBXGroup;
 			children = (
+				E0E1CA3225B999650090A2D6 /* Model */,
 				E0E1C9FC25B998B30090A2D6 /* AppDelegate.swift */,
 				E0E1C9FE25B998B30090A2D6 /* SceneDelegate.swift */,
 				E0E1CA0025B998B30090A2D6 /* ViewController.swift */,
@@ -129,6 +136,16 @@
 				E0E1CA2325B998B50090A2D6 /* Info.plist */,
 			);
 			path = PairProgVictorUITests;
+			sourceTree = "<group>";
+		};
+		E0E1CA3225B999650090A2D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0E1CA3325B9997A0090A2D6 /* UserDataModel.swift */,
+				E0E1CA3825B999BA0090A2D6 /* UserDomainModel.swift */,
+				E0E1CA3D25B999D20090A2D6 /* UserViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E1CA3925B999BA0090A2D6 /* UserDomainModel.swift in Sources */,
 				E0E1CA0125B998B30090A2D6 /* ViewController.swift in Sources */,
 				E0E1C9FD25B998B30090A2D6 /* AppDelegate.swift in Sources */,
+				E0E1CA3425B9997A0090A2D6 /* UserDataModel.swift in Sources */,
 				E0E1CA0725B998B30090A2D6 /* PairProgVictor.xcdatamodeld in Sources */,
+				E0E1CA3E25B999D20090A2D6 /* UserViewModel.swift in Sources */,
 				E0E1C9FF25B998B30090A2D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
